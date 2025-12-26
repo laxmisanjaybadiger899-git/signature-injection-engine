@@ -94,14 +94,17 @@ This prevents stretching and keeps the image centered.
 ## 📂 Project Structure
 
 signature-injection-engine
+
+
 1.backend
 - server.js
 - sample.pdf
 - signed.pdf
 - package.json
- 2.frontend
-  -src
-  -README.md
+  
+2.frontend
+- src
+- README.md
 
 
 ## 📜 Assumptions
