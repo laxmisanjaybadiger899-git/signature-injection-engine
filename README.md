@@ -5,7 +5,7 @@ A full-stack prototype that allows users to place signature, text, date, image, 
 
 This project is built as part of a Full Stack Developer (MERN) internship assignment.
 
----
+
 
 ## 🚀 Tech Stack
 
@@ -15,7 +15,6 @@ PDF Processing: pdf-lib
 Database: MongoDB Atlas  
 Security: SHA-256 Hashing  
 
----
 
 ## 🧠 Problem Solved
 
@@ -33,7 +32,7 @@ PDF:
 
 This project solves the problem by storing **all field positions as percentages relative to the PDF size**, making placement responsive and device-independent.
 
----
+
 
 ## 🛠 Features
 
@@ -61,7 +60,7 @@ This project solves the problem by storing **all field positions as percentages 
 - SHA-256 hash after signing
 - Hashes stored in MongoDB
 
----
+
 
 ## 📐 Coordinate Mapping Logic
 
@@ -80,7 +79,7 @@ y = pageHeight - (yPercent + hPercent) * pageHeight
 
 This ensures accurate placement across all screen sizes.
 
----
+
 
 ## 🖊 Aspect Ratio Handling
 
@@ -90,22 +89,20 @@ scale = min(boxWidth / imageWidth, boxHeight / imageHeight)
 
 This prevents stretching and keeps the image centered.
 
----
+
 
 ## 📂 Project Structure
 
 signature-injection-engine
-├── backend
-│ ├── server.js
-│ ├── sample.pdf
-│ ├── signed.pdf
-│ └── package.json
-├── frontend
-│ └── src
-└── README.md
+1.backend
+- server.js
+- sample.pdf
+- signed.pdf
+- package.json
+ 2.frontend
+  -src
+  -README.md
 
-
----
 
 ## 📜 Assumptions
 
@@ -113,7 +110,7 @@ signature-injection-engine
 - Signature uploaded as image
 - Focus on correctness over UI polish
 
----
+
 
 ## 🎥 Walkthrough
 
